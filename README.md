@@ -1,24 +1,11 @@
-# portfolio
+# Mike's Portfolio
 
-## Project setup
-```
-npm install
-```
+Built with Vuejs 2 and consumes a headless CMS's api (strapi)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+---
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Project setup: `npm install`
 
-### Lints and fixes files
-```
-npm run lint
-```
+Compiles and hot-reloads for development: `npm run serve`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Compiles and minifies for production `npm run build`
