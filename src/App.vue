@@ -64,7 +64,6 @@
 
   a:after,
   a:visited:after {
-    /*TODO: Personalize Color*/
     background-color: hsla(161, 51%, 57%, .4);
     content: "";
     display: block;

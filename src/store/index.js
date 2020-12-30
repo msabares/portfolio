@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from "axios";
 
-const apiURL = "http://134.122.42.4"
+const apiURL = "https://alderson.xyz"
 
 Vue.use(Vuex)
 
