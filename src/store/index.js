@@ -45,6 +45,8 @@ export default new Vuex.Store({
       axios
           .get(apiURL + "/experiences")
           .then(response => {
+            //Sort experiences array based on the Order property
+            response.data.sort((a,b) => (a.order > b.order) ? 1 : -1)
             commit('SET_EXPERIENCES', response.data)
           })
     },
